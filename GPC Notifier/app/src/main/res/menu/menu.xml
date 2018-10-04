@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item
+        android:id="@+id/mmynote1"
+        android:title="My notice" />
+    <item
+        android:id="@+id/msett1"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/mlog1"
+        android:title="logout" />
+
+    <item
+        android:id="@+id/mex1"
+        android:title="Exit" /></group>
+
+    <item
+        android:title="notice"
+        android:id="@+id/renotice"
+        android:icon="@mipmap/ic"
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom" />
+
+</menu>

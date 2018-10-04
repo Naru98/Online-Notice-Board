@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sid.gpcnotifier.Addnot"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10sp">
+    <EditText
+        android:paddingTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Title"
+        android:singleLine="true"
+        android:id="@+id/nno1"
+        />
+    <EditText
+        android:paddingTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:inputType="textMultiLine"
+        android:hint="Notice"
+        android:id="@+id/nno2"
+        android:layout_below="@+id/nno1"
+        />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp">
+        <RadioGroup
+            android:id="@+id/nn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To"
+                android:textSize="17sp"/>
+
+            <RadioButton
+                android:id="@+id/nno34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/all" />
+
+            <RadioButton
+                android:id="@+id/nno45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/staff" />
+
+            <RadioButton
+                android:id="@+id/nno54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/student" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/nno64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/oval1"
+        android:gravity="center"
+        android:text="Post" />
+
+
+</LinearLayout>

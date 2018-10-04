@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuAbout12"
+        android:title="My notice" />
+    <item
+        android:id="@+id/menuAbout2"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/menuSettings2"
+        android:title="logout" />
+
+    <item
+        android:id="@+id/menuLogout2"
+        android:title="Exit" />
+
+</menu>

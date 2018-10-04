@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sid.gpcnotifier.Signups"    android:background="@color/colorPrimary"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/sign_up"
+                android:textColor="@color/button"
+                android:textSize="50sp" />
+
+            <EditText
+                android:id="@+id/snr1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/button"
+                android:hint="@string/enrollment_number"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/button"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/department"
+                    android:padding="5dp"
+                    android:textColor="@color/textc"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/snr2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/comp"
+                    android:textColor="@color/textc"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/snr3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/ele"
+                    android:textColor="@color/textc"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/snr4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/mech"
+                    android:textColor="@color/textc"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/button"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textColor="@color/textc"
+                    android:text="@string/class1"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/snr5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/fy"
+                    android:textColor="@color/textc"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/snr6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/sy"
+                    android:textColor="@color/textc"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/snr7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/ty"
+                    android:textColor="@color/textc"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/snr8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/button"
+                android:hint="@string/mobile_no"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/snr9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/button"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/snr10"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@color/button"
+                android:text="@string/sign_up"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <TextView
+                android:id="@+id/snr11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="@string/already_have_an_account"
+                android:textColor="@color/button"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
